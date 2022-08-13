@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    padding:0;
+    background:url("images/table.jpg") no-repeat center center/cover;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+a{
+    text-decoration:none;
+}
+img{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+h1{
+    text-align:center;
+    color:goldenrod;
+}
+#message-el{
+    font-style: italic;
+}
+p{
+    text-align:center;
+    color:white;
+    font-size: 20pt;
+}
+button{
+    color:#016f32;
+    width:150px;
+    background-color: goldenrod;
+    padding-top:5px;
+    padding-bottom:5px;
+    border:none;
+    border-radius:2px;
+    font-weight:bold;
+    font-size:18pt;
+    cursor: pointer;
+    margin-top:5px;
+}
